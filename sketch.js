@@ -15,7 +15,7 @@ function setup() {
   dropdown.option('選單'); // 設置第一個選項為 "選單"
   dropdown.option('第一周');
   dropdown.option('第二周');
-  dropdown.option('第三周');
+  dropdown.option('測驗卷');
   dropdown.changed(handleDropdownChange); // 設置選單變更事件
 
   input.input(updateText);
@@ -29,7 +29,7 @@ function handleDropdownChange() {
   } else if (selected === '第二周') {
     window.location.href = 'http://www.et.tku.edu.tw/';
   } else if (selected === '第三周') {
-    window.location.href = 'https://hackmd.io/@7gWLWDkkQKqLdkHgvclZTA/Hk_LmYMokl';
+    window.location.href =  https://czhiii.github.io/202503/
   }
 }
 
